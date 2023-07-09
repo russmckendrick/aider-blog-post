@@ -29,6 +29,7 @@ UP = 'up'
 DOWN = 'down'
 LEFT = 'left'
 RIGHT = 'right'
+HEAD = 0 # index of the snake's head
 
 def main():
     global FPSCLOCK, DISPLAYSURF, BASICFONT
