@@ -165,6 +165,18 @@ def drawWorm(wormCoords):
         wormInnerSegmentRect = pygame.Rect(x + 4, y + 4, CELLSIZE - 8, CELLSIZE - 8)
         pygame.draw.rect(DISPLAYSURF, GREEN, wormInnerSegmentRect)
 
+def drawApple(coord):
+    x = coord['x'] * CELLSIZE
+    y = coord['y'] * CELLSIZE
+    appleRect = pygame.Rect(x, y, CELLSIZE, CELLSIZE)
+    pygame.draw.rect(DISPLAYSURF, RED, appleRect)
+
+def drawScore(score):
+    scoreSurf = BASICFONT.render('Score: %s' % (score), True, WHITE)
+    scoreRect = scoreSurf.get_rect()
+    scoreRect.topleft = (WINDOWWIDTH - 120, 10)
+    DISPLAYSURF.blit(scoreSurf, scoreRect)
+
 def showGameOverScreen():
     gameOverFont = pygame.font.Font('freesansbold.ttf', 150)
     gameSurf = gameOverFont.render('Game', True, WHITE)
