@@ -8,6 +8,8 @@ from pygame.locals import *
 WINDOWWIDTH = 800
 WINDOWHEIGHT = 600
 CELLSIZE = 20
+FPS = 15
+SNAKESPEED = 15
 
 # calculate cell width and height
 CELLWIDTH = int(WINDOWWIDTH / CELLSIZE)
@@ -18,6 +20,7 @@ WHITE = (255, 255, 255)
 GREEN = (0, 255, 0)
 RED = (255, 0, 0)
 DARKGREEN = (0, 100, 0)
+DARKGRAY = (40, 40, 40)
 BGCOLOR = (0, 0, 0) # Black background
 
 # set up the direction variables
