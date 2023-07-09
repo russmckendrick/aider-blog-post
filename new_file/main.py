@@ -1,6 +1,7 @@
 import pygame
 import sys
 import time
+import random
 import emoji
 from pygame.locals import *
 
