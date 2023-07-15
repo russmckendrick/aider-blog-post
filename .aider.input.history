@@ -1,0 +1,39 @@
+
+# 2023-07-09 16:04:12.936398
++Write a basic Snake game using Python and Pygame, it should have the following …
++
++- Have splash screen
++- Use the Arrow keys to control the snake
++- Each time the snake eats an apple, it should get faster
++- Use Emjois for the graphics where possible
++- Call the game file main.py and create a requirements.txt containing the requirements needed
+
+# 2023-07-09 16:07:58.846715
++NameError: name 'DARKGREEN' is not defined
+
+# 2023-07-09 16:09:00.350661
++NameError: name 'BGCOLOR' is not defined
+
+# 2023-07-09 16:10:05.406171
++More errors about colors, can you read through the code and name sure they are all correctly defined, the last error was "NameError: name 'DARKGRAY' is not defined. Did you mean: 'DARKGREEN'?"
+
+# 2023-07-09 16:11:16.075700
++I now get this error "NameError: name 'random' is not defined"
+
+# 2023-07-09 16:12:13.424708
++NameError: name 'HEAD' is not defined
+
+# 2023-07-09 16:12:38.219451
++NameError: name 'drawGrid' is not defined
+
+# 2023-07-09 16:14:27.949671
++this appears after the splash screen "NameError: name 'drawGrid' is not defined"
+
+# 2023-07-09 16:16:09.369220
++now i get this NameError: name 'drawWorm' is not defined
+
+# 2023-07-09 16:17:38.940467
++check the new_file/main.py file for any other missing functions 
+
+# 2023-07-09 16:20:01.027945
++/exit
